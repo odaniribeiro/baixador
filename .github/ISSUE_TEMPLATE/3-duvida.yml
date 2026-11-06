@@ -1,0 +1,19 @@
+name: "Tirar uma dúvida"
+description: "Uma pergunta sobre como usar o Baixador."
+title: "[Dúvida] "
+labels: ["dúvida"]
+body:
+  - type: textarea
+    id: duvida
+    attributes:
+      label: "Qual é a sua dúvida?"
+    validations:
+      required: true
+  - type: input
+    id: versao-app
+    attributes:
+      label: "Versão do Baixador"
+      description: "Aparece no menu do canto, dentro do app."
+      placeholder: "1.0.0"
+    validations:
+      required: true
